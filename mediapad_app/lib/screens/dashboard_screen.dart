@@ -48,7 +48,7 @@ class _DashboardScreenState extends State<DashboardScreen> {
   @override
   Widget build(BuildContext context) {
     final data = context.watch<ApplicationState>();
-    final completedBookCount = getCompletedBookList(data.books)?.length ?? 0;
+    final completedBookCount = getCompletedBookList(data.books).length ?? 0;
     final goals = data.goals;
 
     void saveBookGoal() {

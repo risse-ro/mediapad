@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mediapad_app/models/book.dart';
 
 class GoalCounter extends StatefulWidget {
   GoalCounter({

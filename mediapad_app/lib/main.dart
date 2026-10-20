@@ -24,8 +24,7 @@ class MainApp extends StatelessWidget {
 
   final ApplicationState applicationState;
 
-  final defaultProfileImgUrl =
-      'https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e507933a-8538-46f6-8e48-5ed262f5d9c1/dluscd0-faa4cc4f-b59c-455e-86d7-ae609b3d07dc.png/v1/fill/w_160,h_160,q_80,strp/frog_avatar_by_cherivinca_dluscd0-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTYwIiwicGF0aCI6Ii9mL2U1MDc5MzNhLTg1MzgtNDZmNi04ZTQ4LTVlZDI2MmY1ZDljMS9kbHVzY2QwLWZhYTRjYzRmLWI1OWMtNDU1ZS04NmQ3LWFlNjA5YjNkMDdkYy5wbmciLCJ3aWR0aCI6Ijw9MTYwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.KLbkTkYRYvWxVNg-byxo3_hY7dFCBdXrHbnBf0_MsJc';
+  final defaultProfileImgUrl = 'https://tinyurl.com/4jz3se94';
 
   @override
   Widget build(BuildContext context) {

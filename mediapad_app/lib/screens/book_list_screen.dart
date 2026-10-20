@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:mediapad_app/managers/book_manager.dart';
 import 'package:mediapad_app/state/application_state.dart';
-import 'package:mediapad_app/models/book.dart';
 import 'package:provider/provider.dart';
 
 class BookListScreen extends StatefulWidget {

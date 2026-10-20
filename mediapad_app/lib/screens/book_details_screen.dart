@@ -19,21 +19,21 @@ class _BookDetailsScreenState extends State<BookDetailsScreen> {
     final book = ModalRoute.of(context)!.settings.arguments as Book;
     final Color lightBrown = Color.fromARGB(255, 107, 73, 54);
 
-    final _formKey = GlobalKey<FormState>();
-    late TextEditingController _notesController = TextEditingController(
+    final formKey = GlobalKey<FormState>();
+    late TextEditingController notesController = TextEditingController(
       text: book.notes,
     );
 
     @override
     void dispose() {
-      _notesController.dispose();
+      notesController.dispose();
       super.dispose();
     }
 
     void saveBookNotes() {
-      if (_formKey.currentState!.validate()) {
+      if (formKey.currentState!.validate()) {
         setState(() {
-          book.notes = _notesController.text;
+          book.notes = notesController.text;
         });
       }
     }
@@ -88,7 +88,7 @@ class _BookDetailsScreenState extends State<BookDetailsScreen> {
                         ),
                       ),
                       Form(
-                        key: _formKey,
+                        key: formKey,
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -190,7 +190,7 @@ class _BookDetailsScreenState extends State<BookDetailsScreen> {
                                       textAlignVertical: TextAlignVertical.top,
                                       maxLines: null,
                                       expands: true,
-                                      controller: _notesController,
+                                      controller: notesController,
                                       decoration: const InputDecoration(
                                         filled: true,
                                         fillColor: Colors.white,

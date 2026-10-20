@@ -1,7 +1,4 @@
-import 'package:mediapad_app/managers/book_manager.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:mediapad_app/models/book.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:mediapad_app/models/goal.dart';
 
 void main() {
