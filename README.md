@@ -1,13 +1,12 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ueXWdTpv)
-
 # MediaPad App
 
 ## Summary
 
-MediaPad is a final project for DMIT2504 (Mobile App Development). MediaPad allows user to search and make lists of books ~~and movies they have watched and want to watch in the future~~, as well as set reading goals they can view on a dashboard. This app is built in Dart/Flutter and the app includes sign up/log in functionality via Firebase, as well as cloud storage via Firestore.
+MediaPad was initially created as a final project for a Mobile App Development class. MediaPad allows user to search and make lists of books, as well as set reading goals they can view on a dashboard. This app is built in Dart/Flutter and the app includes sign up/log in functionality via Firebase, as well as cloud storage via Firestore.
 
 ## Set Up Instructions
-For the project to run, you need to put the `.env` file with the API Key into the `assets` folder so the directory is as such: `assets/.env`
+
+For the project to run, you need to put the `.env` file with the API Key into the `assets` folder so the directory is as such: `assets/.env` (not provided in public version).
 
 ## Project Checklist
 
@@ -39,6 +38,7 @@ For the project to run, you need to put the `.env` file with the API Key into th
 - [ ] User can search for Movies
 
 #### Pages
+
 - [x] Home page complete
 - [x] Dashboard page complete
 - [x] Book List page complete
@@ -50,8 +50,9 @@ For the project to run, you need to put the `.env` file with the API Key into th
 - [x] Goals page complete (now pop, not a page)
 
 #### Styling
+
 - [x] Global styling is complete
 
 #### Documentation/User Guide
-- [ ] Documentation is written
 
+- [ ] Documentation is written
